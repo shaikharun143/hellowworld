@@ -7,3 +7,10 @@ messEl.textContent = "welcome to svec"
 mainContainerEl.appendChild(messEl)
 
 }
+
+
+function removeBtn(){
+    messEl.classList.remove("message")
+messEl.textContent = ""
+mainContainerEl.appendChild(messEl)
+}
